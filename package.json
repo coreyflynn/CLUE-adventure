@@ -1,11 +1,11 @@
 {
-  "name": "example-adventure",
-  "version": "1.0.1",
-  "description": "example of using adventure to make nodeschool challenges",
+  "name": "clue-adventure",
+  "version": "0.0.1",
+  "description": "training modules for CLUE",
   "bin": {
-    "example-adventure": "runner.js"
+    "clue-adventure": "runner.js"
   },
-  "author": "YOUR NAME HERE",
+  "author": "Corey Flynn",
   "license": "MIT",
   "keywords": [
     "nodeschool",
@@ -14,6 +14,7 @@
   ],
   "dependencies": {
     "adventure": "^2.2.0",
-    "adventure-verify": "^2.1.1"
+    "adventure-verify": "^2.1.1",
+    "request": "^2.51.0"
   }
 }
